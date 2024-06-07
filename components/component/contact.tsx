@@ -107,7 +107,7 @@ export function Contact() {
             </FormItem>
           )}
         />
-        <Button type="submit">Submit</Button>
+        <Button aria-label="to submit the form" type="submit">Submit</Button>
       </form>
     </Form>
   )

@@ -21,7 +21,7 @@ export function CustomCard({ link, p_time, title, site_name, image, category }: 
 
           <div className="text-sm text-gray-500 dark:text-gray-400">{site_name}</div>
           <Link href={`${category}/${link}`}>
-            <Button>Read more</Button>
+            <Button aria-label="To read More">Read more</Button>
           </Link>
         </div>
 

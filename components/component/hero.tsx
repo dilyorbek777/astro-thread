@@ -18,8 +18,8 @@ export function Hero() {
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
-              <Button variant={'default'}>Become a partner</Button>
-              <Button variant={'secondary'}>Learn More</Button>
+              <Button aria-label="Hero sectin button 1" variant={'default'}>Become a partner</Button>
+              <Button aria-label="Hero sectin button 2" variant={'secondary'}>Learn More</Button>
             </div>
           </div>
           <div className="relative">

@@ -44,7 +44,7 @@ export function Navbar() {
 
 
         </div>
-        <Button className="rotate-90  p-0 pl-2 lg:hidden" onClick={() => setOpen(!open)}>
+        <Button aria-label="Bar menu" className="rotate-90  p-0 pl-2 lg:hidden" onClick={() => setOpen(!open)}>
           <Tally2 strokeWidth={1.75} />
         </Button>
         

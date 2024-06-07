@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     type: 'website',
     url: 'https://astro-thread.vercel.app/',
     locale: 'en_EN',
-    images: 'https://raw.githubusercontent.com/dilyorbek777/astro-th/main/public/opg.jpg',
+    images: 'https://raw.githubusercontent.com/dilyorbek777/astro-thread/main/public/opg.jpg',
   },
   creator: 'Dilyorbek Asfandiyorov',
   publisher: 'DEPO ',
